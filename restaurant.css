@@ -83,6 +83,8 @@ aside {
   margin: 0;
   padding: 0;
   text-align: center;
+  position: relative;
+  top: -50px;
 }
 
 .asideitem {
@@ -96,7 +98,7 @@ aside {
 
 /* Show the sidebar when a class 'show' is added to the aside element */
 aside.show {
-  width: 37vh;
+  width: 50%;
 }
 
 @media (min-width: 1020px) {
@@ -109,7 +111,7 @@ aside.show {
     display: block;
   }
   .navbrand {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 }
 
@@ -138,7 +140,6 @@ aside.show {
   font-size: 100px;
   font-family: "Grand hotel";
   font-weight: 400;
-  /* position:absolute; */
   position: relative;
   line-height: 100px;
   z-index: 3;
@@ -191,7 +192,8 @@ aside.show {
   .titleimage {
     width: 100%;
     padding: 0px;
-    opacity: 0.37;
+    opacity: 0.27;
+    background-size: cover;
   }
   .g1body {
     left: 0;
@@ -220,16 +222,23 @@ aside.show {
   }
   .g1title {
     text-align: center;
+    position: relative;
+    top: 33px;
   }
   .g1content {
     text-align: left;
+    font-size: 20px;
     left: 7%;
+    position: relative;
+    top: 37px;
   }
   .g1button {
     font-size: 13px;
     text-align: center;
     width: 50%;
     left: 25%;
+    position: relative;
+    top: 37px;
   }
 }
 
@@ -317,8 +326,8 @@ aside.show {
 .g3image {
   position: relative;
   z-index: 2;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   margin-top: 77px;
 }
 .g3imganimate {
@@ -529,6 +538,7 @@ aside.show {
   font-size: 20px;
   width: 80%;
   margin: auto;
+  text-align: left;
 }
 .g5content ul {
   list-style-type: none;
@@ -536,6 +546,19 @@ aside.show {
 }
 .g5content li {
   padding: 7px;
+}
+@media (max-width:425px) {
+  .g5content{
+    font-size: 15px;
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    color: #ffffff;
+  }
+  .g5title{
+    padding-top: 30px;
+  }
+  
 }
 
 .Group-6 {
@@ -577,7 +600,7 @@ aside.show {
 }
 .contactlist {
   list-style-type: none;
-  margin-left: 70px;
+  margin-left: 30px;
   font-size: 23px;
 }
 .contactlist li {
@@ -595,7 +618,7 @@ aside.show {
   }
   .contactlist {
     list-style-type: none;
-    margin-left: 70px;
+    margin-left: 30px;
     font-size: 20px;
   }
   .contactlist li {
@@ -616,21 +639,28 @@ aside.show {
     text-align: center;
     font-size: 50px;
   }
+  h5.address{
+    text-align: center;
+    margin: 0;
+    padding:0;
+  }
+  .contactlist{
+    padding: 0;
+  }
   .map {
-    width: 350px;
+    width: 320px;
     height: 200px;
     margin-top: 70px;
     margin: auto;
     display: block;
   }
-  ul .contactlist {
+  ul.contactlist {
     list-style-type: none;
     margin-top: 50px;
-    margin: auto;
+    margin:0;
     font-size: 20px;
   }
   .contactlist li {
-    padding: 15px;
     margin: auto;
   }
 }
@@ -934,7 +964,7 @@ aside.show {
 }
 .g4capsicum2 {
   position: absolute;
-  left: 70%;
+  left: 60%;
   top: 5%;
   z-index: 3;
   width: 106px;
@@ -950,7 +980,7 @@ aside.show {
   }
   100% {
     opacity: 0;
-    left: 65%;
+    left: 55%;
     top: 25%;
     transform: rotate(25deg);
   }
@@ -1095,7 +1125,7 @@ aside.show {
 }
 .g4tomato {
   position: absolute;
-  left: 65%;
+  left: 60%;
   top: 55%;
   z-index: 3;
   width: 115px;
@@ -1111,7 +1141,7 @@ aside.show {
   }
   100% {
     opacity: 0;
-    left: 60%;
+    left: 55%;
     top: 75%;
     transform: rotate(50deg);
   }
