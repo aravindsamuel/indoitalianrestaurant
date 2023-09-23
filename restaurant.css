@@ -1,0 +1,1165 @@
+.navbrand {
+  color: #ffd200;
+  font-size: medium;
+  font-family: "grand hotel";
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.navbarcontainer {
+  background-color: #212529;
+  color: #ffffff;
+  width: 100%;
+  height: 60px;
+  border: solid #212529 1px;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 5;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbarlist {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.navlink {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}
+.navitems {
+  display: none;
+}
+.navbton {
+  border: none;
+  width: 50px;
+  display: none;
+  background-color: #212529;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar for the entire page */
+}
+
+aside {
+  margin-top: 50px;
+  width: 0; /* Initially hide the sidebar */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  background-color: #212529;
+  transition: width 0.3s; /* Add a smooth transition effect */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.asideitems {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.asidelist {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.asideitem {
+  padding: 30px 0;
+}
+
+.asidelink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Show the sidebar when a class 'show' is added to the aside element */
+aside.show {
+  width: 37vh;
+}
+
+@media (min-width: 1020px) {
+  .navitems {
+    display: block;
+  }
+}
+@media (max-width: 1020px) {
+  .navbton {
+    display: block;
+  }
+  .navbrand {
+    margin-left: 50px;
+  }
+}
+
+.Group-1 {
+  margin: 0px;
+  background-color: #212529;
+  width: 100%;
+  height: 796px;
+  position: relative;
+  z-index: -1;
+}
+.titleimage {
+  position: absolute;
+  z-index: 1;
+  width: 603px;
+  height: 796px;
+}
+.g1body {
+  position: relative;
+  width: 50%;
+  top: 130px;
+  left: 670px;
+}
+.g1title {
+  color: #ffd200;
+  font-size: 100px;
+  font-family: "Grand hotel";
+  font-weight: 400;
+  /* position:absolute; */
+  position: relative;
+  line-height: 100px;
+  z-index: 3;
+}
+.g1content {
+  color: #ffffff;
+  margin-right: 50px;
+  font-family: "montserrat";
+  font-weight: 400;
+  position: relative;
+  z-index: 3;
+}
+.g1button {
+  background-color: #ffd200;
+  margin-top: 30px;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 17px;
+  color: #333333;
+  width: 192px;
+  height: 40px;
+  position: relative;
+  z-index: 3;
+}
+@media (max-width: 1365px) {
+  .g1body {
+    width: 35%;
+  }
+  .g1title {
+    font-size: 67px;
+    line-height: 70px;
+  }
+  .g1content {
+    margin-top: 30px;
+    font-size: 27px;
+    line-height: 25px;
+  }
+  .g1button {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1147px) {
+  .g1body {
+    top: 87px;
+  }
+}
+@media (max-width: 1047px) {
+  .titleimage {
+    width: 100%;
+    padding: 0px;
+    opacity: 0.37;
+  }
+  .g1body {
+    left: 0;
+    top: 130px;
+    margin: auto;
+    width: 70%;
+  }
+  .g1title {
+    text-align: center;
+  }
+  .g1content {
+    text-align: left;
+  }
+  .g1button {
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  .g1body {
+    left: 0;
+    top: 130px;
+    margin: auto;
+    width: 90%;
+  }
+  .g1title {
+    text-align: center;
+  }
+  .g1content {
+    text-align: left;
+    left: 7%;
+  }
+  .g1button {
+    font-size: 13px;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+}
+
+/* Group 2 */
+.Group-2 {
+  margin: 0px;
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.g2title {
+  position: relative;
+  top: 87px;
+  z-index: 4;
+  font-family: "Grand hotel";
+  font-weight: 400;
+  font-size: 70px;
+  margin: 0px;
+  text-align: center;
+}
+.g2content {
+  position: relative;
+  top: 90px;
+  z-index: 4;
+  font-family: "montserrat";
+  font-weight: 400;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  position: relative;
+  top: 127px;
+  z-index: 4;
+}
+.card {
+  margin: auto;
+}
+.g2titleimage1,
+.g2titleimage2,
+.g2titleimage3 {
+  position: relative;
+  z-index: 1;
+}
+.g2subtitle {
+  position: relative;
+  z-index: 1;
+  font-family: "Grand hotel";
+  font-size: 33px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+}
+.g2subcontent {
+  position: relative;
+  z-index: 1;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 17px;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+}
+@media (max-width: 925px) {
+  .g2title {
+    font-size: 63px;
+  }
+  .g2content {
+    width: 87%;
+  }
+}
+
+/* Group 3 */
+.Group-3 {
+  margin: 0;
+  width: 50%;
+  height: 796px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  top: 150px;
+  z-index: -1;
+}
+.g3image {
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 350px;
+  margin-top: 77px;
+}
+.g3imganimate {
+  animation: g3image 1.5s;
+}
+@keyframes g3image {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.g3title {
+  position: relative;
+  margin: 15px 0 -17px 0;
+  z-index: 1;
+  color: #ffd200;
+  font-family: "Grand hotel";
+  font-weight: 400;
+  font-size: 70px;
+  opacity: 0;
+}
+.g3titleanimate {
+  animation: g3title 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes g3title {
+  0% {
+    opacity: 0;
+    transform: translatex(100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.g3content {
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  z-index: 2;
+  color: #ffffff;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 23px;
+  width: 90%;
+  opacity: 0;
+}
+.g3contentanimate {
+  animation: g3content 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes g3content {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Group 4 */
+.Group-4 {
+  margin: 0px;
+  background-color: #ffffff;
+  width: 50%;
+  height: 796px;
+  position: relative;
+  z-index: -1;
+  top: 150px;
+  overflow: hidden;
+}
+.g4title {
+  position: relative;
+  top: 187px;
+  z-index: 1;
+  font-family: "Grand hotel";
+  font-weight: 400;
+  font-size: 70px;
+  margin: 0px;
+  text-align: center;
+  opacity: 0;
+}
+.g4content {
+  position: relative;
+  top: 195px;
+  z-index: 1;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 23px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  opacity: 0;
+}
+.card {
+  text-align: center;
+}
+.contg4 {
+  margin-top: 75px;
+}
+.carousel {
+  position: relative;
+  top: 217px;
+  overflow: hidden;
+}
+.carousel-item {
+  text-align: center;
+}
+.g3g4flex {
+  display: flex;
+}
+.g4titleanimate {
+  animation: g4title 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes g4title {
+  0% {
+    opacity: 0;
+    transform: translatex(100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.g4contentanimate {
+  animation: g4content 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes g4content {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .g3g4flex {
+    display: block;
+  }
+  .Group-3 {
+    width: 100%;
+    height: 140%;
+  }
+  .g3content {
+    padding-bottom: 50px;
+  }
+  .Group-4 {
+    width: 100%;
+    height: 70vh;
+  }
+  .g4title {
+    top: 70px;
+  }
+  .g4content {
+    top: 100px;
+    width: 90%;
+  }
+  .carousel {
+    top: 70px;
+    margin-top: 70px;
+  }
+}
+
+.Group-5 {
+  width: 100%;
+  height: 796px;
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+@media (max-width: 1070px) {
+  .Group-5 {
+    height: 100%;
+  }
+}
+.g5title {
+  color: #ffd200;
+  font-family: "Grand Hotel";
+  font-weight: 400;
+  font-size: 70px;
+  padding-top: 60px;
+}
+.g5content {
+  color: #ffffff;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+}
+.g5content ul {
+  list-style-type: none;
+  padding-bottom: 30px;
+}
+.g5content li {
+  padding: 7px;
+}
+
+.Group-6 {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 796px;
+  background-color: #ffffff;
+  display: flex;
+}
+.g6icon {
+  width: 30px;
+  height: 30px;
+  padding: 1.5px;
+  margin: 0 7px 0;
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+  z-index: 3;
+}
+.map {
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 70px;
+  width: 500px;
+  height: 350px;
+  position: relative;
+  z-index: 4;
+}
+.g6div {
+  width: 50%;
+}
+.g6title {
+  padding: 80px 0 25px 77px;
+  font-family: "Grand hotel";
+  font-size: 50px;
+  position: relative;
+  z-index: 4;
+}
+.contactlist {
+  list-style-type: none;
+  margin-left: 70px;
+  font-size: 23px;
+}
+.contactlist li {
+  padding: 20px;
+}
+.g6icon:hover {
+  transition: 1s;
+  transform: scale(1.7);
+}
+@media (max-width: 1024px) {
+  .map {
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
+  }
+  .contactlist {
+    list-style-type: none;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  .contactlist li {
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .Group-6 {
+    display: block;
+  }
+  .g6div {
+    width: 100%;
+    display: block;
+  }
+  .g6title {
+    padding: 80px 0 0 0px;
+    font-family: "Grand hotel";
+    text-align: center;
+    font-size: 50px;
+  }
+  .map {
+    width: 350px;
+    height: 200px;
+    margin-top: 70px;
+    margin: auto;
+    display: block;
+  }
+  ul .contactlist {
+    list-style-type: none;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .contactlist li {
+    padding: 15px;
+    margin: auto;
+  }
+}
+
+/* vegetables */
+
+/* Group-1 capsicum */
+.g1capsicum {
+  position: absolute;
+  z-index: 4;
+  width: 106px;
+  height: 105px;
+  display: none;
+  animation: capsicumg1 10s infinite linear;
+}
+@media (min-width: 1270px) {
+  .g1capsicum {
+    display: block;
+  }
+}
+@keyframes capsicumg1 {
+  0% {
+    opacity: 0;
+    left: 1136px;
+    top: 123px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 788px;
+    top: 514px;
+  }
+}
+
+/* Group-1 onion */
+.g1onion {
+  position: absolute;
+  display: none;
+  z-index: 4;
+  width: 80px;
+  height: 104px;
+  animation: oniong1 7s infinite linear;
+}
+@media (min-width: 1360px) {
+  .g1onion {
+    display: block;
+  }
+}
+@keyframes oniong1 {
+  0% {
+    opacity: 0;
+    left: 1258px;
+    top: 414px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 1088px;
+    top: 614px;
+  }
+}
+
+/* Group-1 smallonion */
+.g1smallonion {
+  position: absolute;
+  display: none;
+  z-index: 4;
+  width: 17px;
+  height: 26px;
+  animation: smalloniong1 5s infinite linear;
+}
+@media (min-width: 1370px) {
+  .g1smallonion {
+    display: block;
+  }
+}
+@keyframes smalloniong1 {
+  0% {
+    opacity: 0;
+    left: 1346px;
+    top: 514px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 1258px;
+    top: 713px;
+  }
+}
+
+/* Group-1 mintleaves */
+.g1mintleaves {
+  position: absolute;
+  display: none;
+  z-index: 4;
+  width: 91px;
+  height: 123px;
+  animation: mintleavesg1 8s infinite linear;
+}
+@media (min-width: 1047px) {
+  .g1mintleaves {
+    display: block;
+  }
+}
+@keyframes mintleavesg1 {
+  0% {
+    opacity: 0;
+    left: 900px;
+    top: 143px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 600px;
+    top: 313px;
+  }
+}
+
+/* Group-1 tomato */
+.g1tomato {
+  position: absolute;
+  z-index: 4;
+  width: 115px;
+  height: 108px;
+  display: none;
+  animation: tomatog1 6s infinite linear;
+}
+@media (min-width: 1047px) {
+  .g1tomato {
+    display: block;
+  }
+}
+@keyframes tomatog1 {
+  0% {
+    opacity: 0;
+    left: 800px;
+    top: 543px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 700px;
+    top: 713px;
+  }
+}
+
+/* Group-1 lemon */
+.g1lemon1 {
+  position: absolute;
+  z-index: 4;
+  width: 34px;
+  height: 37px;
+  display: none;
+  animation: lemon1g1 8s infinite linear;
+}
+@media (min-width: 1360px) {
+  .g1lemon1 {
+    display: block;
+  }
+}
+@keyframes lemon1g1 {
+  0% {
+    opacity: 0;
+    left: 1281px;
+    top: 294px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 1100px;
+    top: 400px;
+  }
+}
+
+/* Group-1 lemon 2 */
+.g1lemon2 {
+  position: absolute;
+  z-index: 4;
+  width: 34px;
+  height: 37px;
+  display: none;
+  animation: lemon2g1 8s infinite linear;
+}
+@media (min-width: 1047px) {
+  .g1lemon2 {
+    display: block;
+  }
+}
+@keyframes lemon2g1 {
+  0% {
+    opacity: 0;
+    left: 734px;
+    top: 647px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 600px;
+    top: 770px;
+  }
+}
+
+/* Group-1 lemon 3 */
+.g1lemon3 {
+  position: absolute;
+  z-index: 4;
+  width: 34px;
+  height: 37px;
+  display: none;
+  animation: lemon3g1 8s infinite linear;
+}
+@media (min-width: 1047px) {
+  .g1lemon3 {
+    display: block;
+  }
+}
+@keyframes lemon3g1 {
+  0% {
+    opacity: 0;
+    left: 723px;
+    top: 113px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 600px;
+    top: 200px;
+  }
+}
+
+/* Group-1 lemon 4 */
+.g1lemon4 {
+  position: absolute;
+  z-index: 4;
+  width: 34px;
+  height: 37px;
+  display: none;
+  animation: lemon4g1 8s infinite linear;
+}
+@media (min-width: 1270px) {
+  .g1lemon4 {
+    display: block;
+  }
+}
+@keyframes lemon4g1 {
+  0% {
+    opacity: 0;
+    left: 1070px;
+    top: 678px;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    left: 900px;
+    top: 800px;
+  }
+}
+
+/* G4 veg fall  */
+.g4capsicum1 {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+  z-index: 3;
+  width: 102px;
+  height: 102px;
+  transform: rotate(-25deg);
+  animation: capsicum1g4 5s linear infinite;
+}
+@keyframes capsicum1g4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 10%;
+    top: 25%;
+    transform: rotate(25deg);
+  }
+}
+.g4capsicum2 {
+  position: absolute;
+  left: 70%;
+  top: 5%;
+  z-index: 3;
+  width: 106px;
+  height: 105px;
+  animation: capsicum2g4 5s linear infinite;
+}
+@keyframes capsicum2g4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 65%;
+    top: 25%;
+    transform: rotate(25deg);
+  }
+}
+.g4onion {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  z-index: 3;
+  width: 80px;
+  height: 104px;
+  animation: oniong4 4s infinite linear;
+}
+@keyframes oniong4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 45%;
+    top: 50%;
+    transform: rotate(-35deg);
+  }
+}
+.g4smallonion {
+  position: absolute;
+  left: 90%;
+  top: 70%;
+  z-index: 3;
+  width: 17px;
+  height: 26px;
+  animation: smalloniong4 5s infinite linear;
+}
+@keyframes smalloniong4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 85%;
+    top: 90%;
+    transform: rotate(30deg);
+  }
+}
+.g4mintleaves {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  z-index: 3;
+  width: 91px;
+  height: 123px;
+  animation: mintleavesg4 7s infinite linear;
+}
+@keyframes mintleavesg4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 35%;
+    top: 80%;
+    transform: rotate(35deg);
+  }
+}
+.g4lemon1 {
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  z-index: 3;
+  width: 34px;
+  height: 37px;
+  animation: lemon1g4 6s infinite linear;
+}
+@keyframes lemon1g4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 40%;
+    top: 25%;
+    transform: rotate(20deg);
+  }
+}
+.g4lemon2 {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  z-index: 3;
+  width: 34px;
+  height: 37px;
+  animation: lemon2g4 5s infinite linear;
+}
+@keyframes lemon2g4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 15%;
+    top: 90%;
+    transform: rotate(20deg);
+  }
+}
+.g4lemon3 {
+  position: absolute;
+  left: 85%;
+  top: 40%;
+  z-index: 3;
+  width: 34px;
+  height: 37px;
+  animation: lemon3g4 6s infinite linear;
+}
+@keyframes lemon3g4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 80%;
+    top: 60%;
+    transform: rotate(20deg);
+  }
+}
+.g4tomato {
+  position: absolute;
+  left: 65%;
+  top: 55%;
+  z-index: 3;
+  width: 115px;
+  height: 108px;
+  animation: tomatog4 6s infinite linear;
+}
+@keyframes tomatog4 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: 60%;
+    top: 75%;
+    transform: rotate(50deg);
+  }
+}
+@media (max-width: 1024px) {
+  .g4capsicum1,
+  .g4capsicum2,
+  .g4lemon1,
+  .g4lemon2,
+  .g4lemon3,
+  .g4mintleaves,
+  .g4onion,
+  .g4smallonion,
+  .g4tomato {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 768px) {
+  .g4capsicum1,
+  .g4capsicum2,
+  .g4lemon1,
+  .g4lemon2,
+  .g4lemon3,
+  .g4mintleaves,
+  .g4onion,
+  .g4smallonion,
+  .g4tomato {
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 500px) {
+  .g4capsicum1,
+  .g4capsicum2,
+  .g4lemon1,
+  .g4lemon2,
+  .g4lemon3,
+  .g4mintleaves,
+  .g4onion,
+  .g4smallonion,
+  .g4tomato {
+    transform: scale(0.6);
+  }
+}
+
+.footer {
+  width: 100%;
+  margin-top: 100px;
+  height: 100px;
+  background-color: #333333;
+  position: relative;
+}
